@@ -1,0 +1,205 @@
+{
+  "id": "06cbd3ad-7f3f-413e-9538-e99a644feb2d",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "31f945b9-2d43-4862-846f-5344abfb6d3f",
+    "name": "MilkyWay",
+    "commands": [{
+      "id": "7fbde8ca-0232-40ef-abb9-bf3df165d3db",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8dbe000-261d-44cc-9d81-0e954208c50a",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb3828d-ef31-40a3-839e-b55906192bfe",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Milky way"
+    }, {
+      "id": "0b2834b0-c1d3-4bd8-8115-9e9a35603a16",
+      "comment": "",
+      "command": "submit",
+      "target": "id=search-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95a08c6b-3ac8-41bd-8e10-e35dff3e4d93",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mw-content-text']/div/p[13]",
+      "targets": [
+        ["xpath=//div[@id='mw-content-text']/div/p[13]", "xpath:idRelative"],
+        ["xpath=//p[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ebfecd-e461-449d-8894-a4631d2d55e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "targets": [
+        ["id=firstHeading", "id"],
+        ["css=#firstHeading", "css"],
+        ["xpath=//h1[@id='firstHeading']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Milky Way"
+    }, {
+      "id": "c4fe929e-2f52-4de3-9d7b-e53696a487db",
+      "comment": "",
+      "command": "click",
+      "target": "css=label.toctogglelabel",
+      "targets": [
+        ["css=label.toctogglelabel", "css"],
+        ["xpath=//div[@id='toc']/div/span/label", "xpath:idRelative"],
+        ["xpath=//span/label", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aba95115-16ac-4975-87ea-04730def0d59",
+    "name": "Sun",
+    "commands": [{
+      "id": "e0936462-91b1-4aac-9a09-182b8cf07400",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f51d5dd-d9a5-4141-9eff-2bf2e56ff6af",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Sun"
+    }, {
+      "id": "57036528-17ec-4428-ad1b-d59dc6187a54",
+      "comment": "",
+      "command": "submit",
+      "target": "id=search-form",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0b63b9a2-c920-4f0b-9cdf-9dbfe018679d",
+    "name": "Earth",
+    "commands": [{
+      "id": "d63eda88-16dc-47bd-a4e8-2569fa525211",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cec909c-d27d-4a7f-a5d5-fd5e5f92400e",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Earth"
+    }, {
+      "id": "953adf8c-2ba9-4e7f-baf6-355e8a604be2",
+      "comment": "",
+      "command": "submit",
+      "target": "id=search-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c8634e5-bb44-45a5-a1ff-e70ae3742470",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "targets": [
+        ["id=firstHeading", "id"],
+        ["css=#firstHeading", "css"],
+        ["xpath=//h1[@id='firstHeading']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Earth"
+    }, {
+      "id": "368ab6d7-7aee-4d90-a40f-b594eb809fc3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mw-content-text']/div/p[5]",
+      "targets": [
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20715724-b467-4ce0-b36a-80b568bd0313",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.toclevel-2.tocsection-3 > a > span.toctext",
+      "targets": [
+        ["css=li.toclevel-2.tocsection-3 > a > span.toctext", "css"],
+        ["xpath=//div[@id='toc']/ul/li[2]/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7ed003-318f-4eb6-b214-d6aa35b9dcf3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mw-content-text']/div/p[11]",
+      "targets": [
+        ["xpath=//div[@id='mw-content-text']/div/p[11]", "xpath:idRelative"],
+        ["xpath=//p[11]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dacc1520-9fdf-459d-a7ea-8a926da70876",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["31f945b9-2d43-4862-846f-5344abfb6d3f", "aba95115-16ac-4975-87ea-04730def0d59"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}
